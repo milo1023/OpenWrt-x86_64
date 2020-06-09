@@ -13,3 +13,4 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git milo1023 https://github.com/milo1023/passwall652' feeds.conf.default
